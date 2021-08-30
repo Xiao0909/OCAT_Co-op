@@ -1,10 +1,12 @@
 const { client, config } = require(`../../utils`);
 const { InternalServerError } = require(`restify-errors`);
+const { default: Axios } = require(`../../../client/utils/http.config`);
 
 exports.submit = (assessment) => new Promise((resolve, reject) => {
   // this function sends a request to the API
   // finish the logic to handle the response when returned from the API
-  client.METHOD(`/some-url`,
+  console.log(assessment);
+  client.post(`/assessment/submit`,
     (err, req, res, body) => {
       if (err) {
         return reject(err);
@@ -13,7 +15,7 @@ exports.submit = (assessment) => new Promise((resolve, reject) => {
       if (res.statusCode !== 200) {
         return reject(new InternalServerError(`Request Error`));
       }
-
+      console.log(err);
       resolve(body.data);
     });
 });

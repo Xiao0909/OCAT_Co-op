@@ -5480,9 +5480,9 @@
       }
     },
     "follow-redirects": {
-      "version": "1.14.1",
-      "resolved": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.1.tgz",
-      "integrity": "sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg=="
+      "version": "1.14.2",
+      "resolved": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.2.tgz",
+      "integrity": "sha512-yLR6WaE2lbF0x4K2qE2p9PEXKLDjUjnR/xmjS3wHAYxtlsI9MLLBJUZirAHKzUZDGLxje7w/cXR49WOUo4rbsA=="
     },
     "for-in": {
       "version": "1.0.2",
@@ -6549,6 +6549,11 @@
         "filelist": "^1.0.1",
         "minimatch": "^3.0.4"
       }
+    },
+    "jquery": {
+      "version": "3.6.0",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.6.0.tgz",
+      "integrity": "sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw=="
     },
     "js-base64": {
       "version": "2.6.4",
@@ -7933,6 +7938,11 @@
         }
       }
     },
+    "popper.js": {
+      "version": "1.16.1",
+      "resolved": "https://registry.npmjs.org/popper.js/-/popper.js-1.16.1.tgz",
+      "integrity": "sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ=="
+    },
     "posix-character-classes": {
       "version": "0.1.1",
       "resolved": "https://registry.npmjs.org/posix-character-classes/-/posix-character-classes-0.1.1.tgz",
@@ -8323,6 +8333,11 @@
       "version": "1.0.2",
       "resolved": "https://registry.npmjs.org/react-dom-factories/-/react-dom-factories-1.0.2.tgz",
       "integrity": "sha1-63cFxNs2+1AbOqOP91lhaqD/luA="
+    },
+    "react-hook-form": {
+      "version": "7.13.0",
+      "resolved": "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.13.0.tgz",
+      "integrity": "sha512-ofjzl78xNTRmBHFZ/gOn65HDiqM/LHxbVMlaFoemyMQIDFTR4aG4h2CpCG/N0TbW5IQbh21hBYUvvmqK0ByEhg=="
     },
     "react-is": {
       "version": "16.13.1",
