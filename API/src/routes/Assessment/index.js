@@ -14,13 +14,13 @@ module.exports = server => {
         // verify that your data is making it here to the API by using console.log(assessment);
         // call the AssessmentService.submit function from the API/src/microservices/Assessment/ and
         // supply the correct parameters
-        console.log(assessment);
-        await AssessmentService.submit(assessment);
+        // console.log(assessment);
+        const Assessment = await AssessmentService.submit(assessment);
 
         ResponseHandler(
           res,
           `Submitted assessment`,
-          {},
+          { Assessment },
           next,
         );
       } catch (err) {
@@ -36,7 +36,7 @@ module.exports = server => {
 
         // verify that your data is making it here to the API by using console.log();
         // call the AssessmentService.getList function from the API/src/microservices/Assessment/
-
+        const assessments = await AssessmentService.getList();
         ResponseHandler(
           res,
           `Fetched assessments`,
